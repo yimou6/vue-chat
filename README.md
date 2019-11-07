@@ -1,24 +1,17 @@
-# vue-chatkit
+# vue-chat
 
-## Project setup
-```
-npm install
-```
+### 启动
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1、创建`.env.local`文件，配置好实例和测试令牌
 
-### Compiles and minifies for production
 ```
-npm run build
+VUE_APP_INSTANCE_LOCATOR=
+VUE_APP_TOKEN_URL=
+VUE_APP_MESSAGE_LIMIT=10
 ```
+2、启动服务
 
-### Lints and fixes files
-```
-npm run lint
-```
+> npm install
+>
+> npm run serve
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
